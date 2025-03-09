@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneaker Geeks</title>
+    <link rel="stylesheet" href="https://cdn.tlm.cloud/fontawesome/5.15.2/css/all.css" integrity="sha384-+ioeoxQvfPYLCoZqU6XvHE+J8Wb3CogZo13PwI1Ptkv/fkzdPKA5nGUGMuzkS2Y9" crossorigin="anonymous">
+    <link href="https://cdn.tlm.cloud/bootstrap/5.2.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/styles.css">
+
+</head>
+<body>
+
+<!-- Navbar -->
+<!-- This is the main navigation bar of the website -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <!-- sticky-top -->
+    <div class="container">
+        <!-- Website branding/logo -->
+        <a class="navbar-brand" href="#">Sneaker Geeks Blog</a>
+        
+        <!-- Navbar toggler button for mobile responsiveness -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <!-- Navigation link to the Reviews section -->
+                <li class="nav-item"><a class="nav-link" href="#reviews">Reviews</a></li>
+                <!-- Navigation link to the Sneaker Deals section -->
+                <li class="nav-item"><a class="nav-link" href="#deals">Sneaker Deals</a></li>
+                <!-- Navigation link to the Community section -->
+                <li class="nav-item"><a class="nav-link" href="#community">Community</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<!-- This section serves as the main introduction with a background image -->
+<header class="jumbotron text-center text-white d-flex align-items-center justify-content-center">
+    <div class="container">
+        <!-- Bootstrap background box with slight opacity for better text readability -->
+        <div class="bg-dark bg-opacity-75 p-4 rounded d-inline-block">
+            <!-- Hero Section Title -->
+            <h1 class="fw-bold">Welcome to the Sneaker Geek Blog</h1>
+            <!-- Hero Section Subtitle -->
+            <p class="lead">The go-to place for sneaker reviews, discussions, and deals.</p>
+            <!-- Call-to-action button directing users to the Reviews section -->
+            <a href="#reviews" class="btn btn-light btn-lg">Explore Reviews</a>
+        </div>
+    </div>
+</header>
+
+
+
+<!-- Sneaker Reviews Section -->
+<!-- This section displays the latest sneaker reviews -->
+<div class="container my-5">
+    <h2 class="text-center mb-4">Latest Sneaker Reviews</h2>
+    <div id="reviews" class="row row-cols-1 row-cols-md-4 g-4">
+        
+        <!-- Sneaker Card 1 -->
+        <div class="col">
+            <div class="card shadow">
+                <img src="/assets/jordan-kicks.jpg" class="card-img-top sneaker-img" alt="Jordan Kicks">
+                <div class="card-body">
+                    <h5 class="card-title">Jordan Kicks</h5>
+                    <p class="card-text">A classic sneaker with premium comfort and style.</p>
+                    <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#reviewModal">Read Reviews</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sneaker Card 2 -->
+        <div class="col">
+            <div class="card shadow">
+                <img src="/assets/jordan1-yellow.jpg" class="card-img-top sneaker-img" alt="Jordan 1 Yellow">
+                <div class="card-body">
+                    <h5 class="card-title">Jordan 1 Yellow</h5>
+                    <p class="card-text">A stylish sneaker with high-top design and bold colors.</p>
+                    <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#reviewModal">Read Reviews</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sneaker Card 3 -->
+        <div class="col">
+            <div class="card shadow">
+                <img src="/assets/jordan4-Black.jpg" class="card-img-top sneaker-img" alt="Jordan 4 Black">
+                <div class="card-body">
+                    <h5 class="card-title">Jordan 4 Black</h5>
+                    <p class="card-text">An iconic sneaker known for its durability and design.</p>
+                    <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#reviewModal">Read Reviews</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sneaker Card 4 -->
+        <div class="col">
+            <div class="card shadow">
+                <img src="/assets/jordan4.jpg" class="card-img-top sneaker-img" alt="Jordan 4 Retro">
+                <div class="card-body">
+                    <h5 class="card-title">Jordan 4 Retro</h5>
+                    <p class="card-text">A stylish sneaker featuring a modern take on the classic design.</p>
+                    <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#reviewModal">Read Reviews</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sneaker Card 5 -->
+        <div class="col">
+            <div class="card shadow">
+                <img src="/assets/nike-airmax.jpg" class="card-img-top sneaker-img" alt="Nike Air Max">
+                <div class="card-body">
+                    <h5 class="card-title">Nike Air Max</h5>
+                    <p class="card-text">A comfortable and stylish sneaker, perfect for everyday wear.</p>
+                    <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#reviewModal">Read Reviews</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sneaker Card 6 -->
+        <div class="col">
+            <div class="card shadow">
+                <img src="/assets/nike-blue-yellow.jpg" class="card-img-top sneaker-img" alt="Nike Blue Yellow">
+                <div class="card-body">
+                    <h5 class="card-title">Nike Blue Yellow</h5>
+                    <p class="card-text">A bold and vibrant sneaker for those who love a unique look.</p>
+                    <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#reviewModal">Read Reviews</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sneaker Card 7 -->
+        <div class="col">
+            <div class="card shadow">
+                <img src="/assets/nike-hightop.jpg" class="card-img-top sneaker-img" alt="Nike High Top">
+                <div class="card-body">
+                    <h5 class="card-title">Nike High Top</h5>
+                    <p class="card-text">A durable high-top sneaker that offers excellent ankle support.</p>
+                    <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#reviewModal">Read Reviews</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sneaker Card 8 -->
+        <div class="col">
+            <div class="card shadow">
+                <img src="/assets/nike-shoes.jpg" class="card-img-top sneaker-img" alt="Nike Shoes">
+                <div class="card-body">
+                    <h5 class="card-title">Nike Shoes</h5>
+                    <p class="card-text">A versatile sneaker that matches any casual or athletic outfit.</p>
+                    <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#reviewModal">Read Reviews</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Sneaker Deals Section -->
+<!-- This section showcases the latest sneaker discounts and promotions -->
+<div class="container my-5" id="deals">
+    <h2 class="text-center">Latest Sneaker Deals</h2>
+    <p class="text-center">Find and share the best places to buy your favorite sneakers.</p>
+    <!-- Highlighted deal alert box -->
+    <div class="alert alert-success text-center">
+        New Deal: 20% off Air Jordans at Footlocker! 
+        <!-- Link to check out the deal -->
+        <a href="#">Check it out</a>
+    </div>
+</div>
+
+<!-- Community Discussions Section -->
+<!-- This section allows users to share thoughts and join discussions about sneakers -->
+<div class="container my-5" id="community">
+    <h2 class="text-center">Community Discussions</h2>
+    <p class="text-center">Join the conversation and share your sneaker knowledge!</p>
+    <!-- Text area for users to write and submit comments -->
+    <textarea class="form-control" rows="3" placeholder="Leave a comment..."></textarea>
+    <!-- Submit button to post the comment -->
+    <button class="btn btn-primary mt-2">Post Comment</button>
+</div>
+
+<!-- Footer Section -->
+<!-- This footer appears at the bottom of the site with copyright information -->
+<footer class="footer bg-dark text-white text-center py-3">
+    <div class="container">
+        <!-- Copyright notice -->
+        <p>&copy; 2025 Sneaker Blog. All rights reserved.</p>
+    </div>
+</footer>
+
+    <!-- scripts blow -->
+    <script src="https://cdn.tlm.cloud/bootstrap/5.2.3/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
