@@ -23,7 +23,7 @@ This project utilizes open-source images from [Pixabay](https://www.pixabay.com)
 ## How to Use
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/sneaker-blog.git
+   git clone  https://github.com/MCVelasquez45/sneakerGeeks
    ```
 2. Open `index.html` in your preferred browser.
 3. Navigate through the blog and explore sneaker reviews, deals, and community discussions.
